@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!--  Header Represent the introductory content of the web page -->
+      <header>
+           <h1> HTML Semantic </h1>
+      </header>
+      <!-- Nav is used for navigation. But we can write inside the
+         div tag but best way is to write nav tag.  -->
+       <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign up </a></li>
+            </ul> 
+       </nav>  
+       <!-- All dominating content of web site must be written inside
+            the main tag..We can also write div tag but it's not a good
+            practice.It(main) increase the readiability of hte code. -->
+            <main>
+                <h2> This is h2 </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore hic ullam facilis blanditiis eius quos, ipsam fugiat dicta veritatis in recusandae ex facere explicabo aliquid consequatur consequuntur, autem vero. Facilis?
+                Eius quod reprehenderit atque at iusto quo distinctio fugit laudantium reiciendis corrupti, accusamus, ex ipsa facilis praesentium! Non possimus quasi debitis, voluptatum nam et officiis fuga veritatis, aspernatur excepturi assumenda.
+                Voluptatibus non id dolorem, ratione, fugit voluptate in amet nemo necessitatibus placeat vel itaque nulla! A in blanditiis perferendis ad sed sequi nisi est nihil molestias sapiente libero, doloremque asperiores?</p>
+                <ol start="5" type="1">
+                    <li>Mango</li>
+                    <li>Mango</li>
+                    <li>Mango</li>
+                    <li>Mango</li>
+                    <li>Mango</li>
+                </ol>
+           
+            <!-- Div is a container it cantain the information. -->
+            <!-- Section content don't repeat anywheere. -->
+            <section>
+                <h2> Fav Movies </h2>
+                <ul>
+                    <li>Spider Man </li>
+                    <li>Spider Man </li>
+                    <li>Spider Man </li>
+                </ul>
+            </section>
+            <article>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </article>
+            <article>
+                <label for="password">Username</label>
+                <input type="password" name="password" id="password">
+            </article>
+            <button>Submit </button>
+            <!-- The aside tag is used to represent as sidebars or call out boxes. It tells that these will be in side using css. -->
+            <aside>
+                <h6> This is aside</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloribus maxime harum quam quia ipsum natus assumenda
+                   error cum, commodi, praesentium molestias blanditiis 
+                   quasi enim. Autem molestias nam quos fugiat reiciendis!</p>
+            </aside>
+            <!-- Image and caption etc are written inside figure tag. -->
+             <section>
+                 <figure>
+                     <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60">
+                     <figcaption>
+                         <h3>Iphone 11</h3>
+                         <h3>price : $ 28 </h3>
+                         <button> Buy Now </button>
+                     </figcaption>
+                 </figure>
+             </section>
+        </main>
+      <!-- Footerh contains information about the author of the section,copyright
+        data or links to related documents.-->
+        <footer>
+            <p>All right reserved &copy; </p>
+        </footer>
+</body>
+</html>
